@@ -40,7 +40,7 @@
         };
 
         tt {
-            bindings = <&kp A>;
+            bindings = <&kp C>;
             key-positions = <12 13>;
         };
     };
