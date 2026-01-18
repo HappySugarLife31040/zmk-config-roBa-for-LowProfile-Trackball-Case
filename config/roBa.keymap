@@ -41,7 +41,7 @@
 
         tt {
             bindings = <&kp A>;
-            key-positions = <12 13>;
+            key-positions = <18 19>;
         };
     };
 
