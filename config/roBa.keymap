@@ -40,7 +40,7 @@
         };
 
         tt {
-            bindings = <&kp C>;
+            bindings = <&kp A>;
             key-positions = <12 13>;
         };
     };
@@ -106,11 +106,12 @@
 &kp E           &kp I         &kp A         &kp O                  &kp TAB      &kp PRINTSCREEN      &kp QUESTION  &kp K                  &kp T  &kp N    &kp S  &kp H
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C                  &kp V        &to 6                &kp COMMA     &kp G                  &kp D  &kp M    &kp J  &mt RIGHT_SHIFT B
 &kp LCTRL       &kp LEFT_WIN  &parenthesis  &lt 3 INTERNATIONAL_4  &lt 2 SPACE  &kp BACKSPACE        &lt 1 ENTER   &lt 2 INTERNATIONAL_5                         &to 4
-            >;    
-    sensor-bindings = <
+            >;
+
+            sensor-bindings = <
         &scroll_up_down
         &mkp MB1
-    >;
+            >;
         };
 
         SYMBOLS {
